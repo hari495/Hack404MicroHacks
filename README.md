@@ -13,3 +13,12 @@ Welcome to our Hack404 project repo! Over a weekend of intense creativity and te
 | 🌐 [Microhack 3: Hacker Portal Website](./mini-hack-3-web-dev/) | A  functional **web version** of the Hacker Portal,  with responsive layouts and interactive components. | HTML, Flask, CSS |
 
 ---
+
+## 💡 Key Takeaways
+
+- Explored full-stack product creation: **design → AI → frontend**
+- Learned real-world collaboration using **Git/GitHub**
+- Practiced rapid prototyping under time pressure
+- Enhanced teamwork and time management
+
+---
