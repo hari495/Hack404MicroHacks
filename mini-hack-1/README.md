@@ -1,2 +1,3 @@
-#please use the link below to access our prototype. The menu bar and dropdown menus have been linked and connected appropriately. Due to a strict limitation of how many pages the basic and free Figma subscription plan comes with, we were unable to create additional pages for registration or sponsors.
-#link: https://www.figma.com/proto/hIWWI2FIsw4QQiMsTvr2H2/Hackathon-Improvement-Workshop?node-id=1-2&p=f&t=jzKFAVKWXWvooyg7-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2
+# please use the link below to access our prototype. The menu bar and dropdown menus have been linked and connected appropriately. Due to a strict limitation of how many pages the basic and free Figma subscription plan comes with, we were unable to create additional pages for registration or sponsors.
+# prototype link: https://www.figma.com/proto/hIWWI2FIsw4QQiMsTvr2H2/Hackathon-Improvement-Workshop?node-id=1-2&p=f&t=jzKFAVKWXWvooyg7-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2
+# dev mode link: https://www.figma.com/design/hIWWI2FIsw4QQiMsTvr2H2/Hackathon-Improvement-Workshop?node-id=0-1&m=dev&t=eMu9YbZqNxiUe1We-1
