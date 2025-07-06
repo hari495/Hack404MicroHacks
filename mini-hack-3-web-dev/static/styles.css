@@ -1,0 +1,116 @@
+body {
+    font-family:  Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #0a0f2c, #000000);
+    color: #c9d1d9;
+    min-height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.navbar h1 {
+    color: #58a6ff;
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #58a6ff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.welcome-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #39c5bb;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.column {
+    background: linear-gradient(to bottom, #00ff51, #000000);
+    padding: 20px;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 100, 0.1);
+    color: #c9d1d9;
+    transition: box-shadow 0.3s ease;
+}
+
+.column:hover {
+    box-shadow: 0 0 15px 3px #0f8a33;
+}
+
+
+.column h2 {
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+
+.event-item, .announcement-item {
+    background: linear-gradient(to bottom, #6f00ff, #000000); ;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+}
+
+.event-name, .announcement-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.event-time {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.event-location {
+    color: #ffffff;
+}
+
+.announcement-content {
+    color: #ffffff;
+}
+
+
+.column h3 {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.column p {
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.info-item {
+    background: linear-gradient(to bottom, #6f00ff, #000000); ;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+}
+

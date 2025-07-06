@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Dashboard</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .navbar {
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .navbar h1 {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .welcome-heading {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .column {
+            
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        
+        .column h2 {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        .event-item, .announcement-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f8f8f8;
+        }
+        
+        .event-time {
+            font-weight: bold;
+        }
+        
+        .event-location {
+            color: #ffffff;
+        }
+        
+        .announcement-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Launchpad</h1>
+        <a href="/create_announcement">Create Announcement</a>
+    </nav>
+    
+    <h1 class="welcome-heading">Welcome Hacker!</h1>
+    
+    <div class="dashboard-grid">        
+        <!-- Events Column -->
+        <div class="column">
+            <h2>Today's Events</h2>
+            {% for event in events %}
+            <div class="event-item">
+                <div class="event-name">{{ event.name }}</div>
+                <div class="event-time">{{ event.time }}</div>
+                <div class="event-location">{{ event.location }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <!-- Announcements Column -->
+        <div class="column">
+            <h2>Announcements</h2>
+            {% for announcement in announcements %}
+            <div class="announcement-item">
+                <div class="announcement-title">{{ announcement.title }}</div>
+                <div class="announcement-content">{{ announcement.content }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        
+    <div class="column">
+    <h2>Hackathon Info</h2>
+  
+        <div class="info-item">
+            <p>Learn new things!</p>
+        </div>
+
+        <div class="info-item">
+            <h3>Need Help?</h3>
+            <p>Don't hesitate to ask mentors or fellow participants. We're all here to learn together!</p>
+        </div>
+
+        <div class="info-item">
+            <h3>Tips for Success</h3>
+            <p>- Take breaks when needed<br>
+            - Ask questions<br>
+            - Help others when you can<br>
+            - Have fun coding!</p>
+        </div>
+
+    
+    </div>
+</body>
+</html>
